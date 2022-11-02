@@ -21,7 +21,7 @@
 ::1번 알고리즘:: 반복 뺄셈으로 GCD return
 ```
 def gcd_sub(a,b):
-	while a!=0 and b!=0: # 한 쪽이 0이 될 때까지 큰 수에서 작은 수를 빼는 반복 뺄셈
+	while a!=0 and b!=0: # 한 쪽이 0이 될 때까지 큰 수에서 작은 수를 반복하여 뺄셈
 		if a>b: a=a-b 
 		else: b=b-a
 	return a+b
