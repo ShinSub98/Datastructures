@@ -41,7 +41,7 @@ output: 배열 A 중 최댓값 return
 for i = 1 to n-1 do #A[1]부터 A[n-1]까지 시도
 	if CurrentMax < A[i]:
 		CurrentMax = A[i]
-	return CurrentMax
+return CurrentMax
 ```
 위 경우에서 A = [3, -1, 9, 2, 12]일 경우
 CurrentMax는 최초에 A[0]이기 때문에 3이 된다. 이 때 += 단위시간 1
